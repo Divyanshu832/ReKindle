@@ -10,6 +10,7 @@ import {
   JobPortal,
 } from "./components/Index.js";
 import Layout from "./Layout";
+import JobForm from "./components/JobPortal/JobForm.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="donate" element={<Donate />} />
         <Route path="alumini" element={<Alumini />} />
         <Route path="jobs" element={<JobPortal />} />
+        <Route path="jobform" element={<JobForm />} />
       </Route>
     </Routes>
   </BrowserRouter>,
