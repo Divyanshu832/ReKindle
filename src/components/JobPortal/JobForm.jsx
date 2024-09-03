@@ -53,7 +53,7 @@ const JobForm = () => {
   };
 
   return (
-    <div className="flex w-full justify-center items-center min-h-screen">
+    <div className="flex w-full justify-center items-center min-h-screen py-7 bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 ">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-3xl p-6 bg-white rounded-lg shadow-md"
