@@ -1,17 +1,10 @@
 import { Link, NavLink } from "react-router-dom";
 import AluminiRelations from "../../assets/Alumini_Relations.svg";
-import Location from "../../assets/Location.svg";
-import Phone from "../../assets/Phone.svg";
-import Email from "../../assets/Envelope.svg";
-import LinkedIn from "../../assets/LinkedIn.svg";
-import Instagram from "../../assets/Instagram.svg";
-import facebook from "../../assets/facebook.svg";
-import Discord from "../../assets/Discord.svg";
-import Line from "../../assets/Line.svg";
 
 export default function Footer() {
   return (
     <footer className="bg-wsec max-md:w-[450px]">
+      <hr className="border-wdark" />
       <div className="mx-auto w-full max-w-screen-xl px-5 py-2">
         <div className="-mb-3 flex justify-around font-grotesk">
           <Link

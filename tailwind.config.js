@@ -22,8 +22,6 @@ export default {
         poppins: "Poppins",
         mono: "Space Mono",
       },
-    },
-  },
-
-  plugins: ["prettier-plugin-tailwindcss"],
+    }
+  }
 };
